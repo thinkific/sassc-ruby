@@ -36,6 +36,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake-compiler-dock"
 
   spec.add_dependency "ffi", "~> 1.9"
+  spec.add_dependency "sass", "~> 3.7.4"
 
   gem_dir = File.expand_path(File.dirname(__FILE__)) + "/"
 
